@@ -1,0 +1,210 @@
+
+
+.altura-a-b{
+    padding: 100px 0;
+}
+
+.logotipo{
+    width: 50px;
+    padding: 5px 0;
+}
+
+.iconos-r {
+    width: 20px;
+    margin: 10px 5px;
+}
+
+footer {
+    background-color: rgb(156, 156, 156);
+    padding: 100px 0;
+    text-align: center;
+}
+
+footer .logotipo-footer {
+    width: 200px;
+    margin-bottom: 20px ;
+}
+
+.carousel-inner{
+    margin-top: 10px;
+    
+}
+
+.grid-porta {
+    padding: 10px;
+    max-width: 1100px;
+    margin: 0 auto;
+    background: #f2f2f2;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-auto-rows: 250px;
+    grid-auto-flow: dense;
+
+}
+
+.z-strech {
+    grid-row: span 2;
+
+}
+
+.x-strech {
+    grid-column: span 2;
+}
+
+.y-strech {
+    grid-row: span;
+    grid-column: span 2;
+
+}
+
+
+.grid-porta div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media(max-width:550px)
+{
+    .z-strech{
+        grid-row: auto;
+    }
+    .x-strech{
+        grid-column: auto;
+    }
+    .y-strech{
+        grid-column: auto;
+        grid-row: auto;
+    }
+}
+
+.nada{
+	height: 5px!important;
+	padding: 0!important;
+	margin-bottom: 0!important;
+
+}
+
+form {
+	width: auto;
+	margin: 18px;
+	background-color: #00609C;
+	padding: 10px 20px 30px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 7px;
+}
+
+input, textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	
+}
+textarea{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+}
+#boton{
+	background:#E74F3D;
+	color: yellow;
+	padding: 10px;
+	font-family: letra;
+}
+
+
+h2{
+	
+color: whitesmoke;
+	font-family: letra;
+	font-size: 30px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 10px;
+	}
+.titulo{
+	text-align: center;
+}
+
+
+
+.Dat{
+	text-align: center;
+	
+
+	font-family: letra;
+	height:auto;
+	width: auto;
+	background-color: #E74F3D	;
+	text-align: center;
+	border-radius: 20px;
+	box-shadow: 0 .3px 5px rgb(0, 0, 5);
+margin-top: 110px;
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
+color: #FFD100;
+padding-top: 22px;
+padding-left: 22px;
+
+font-size: 40px;
+}
+.escribeme {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #00609C;
+
+	text-align: center;
+	font-size: 30px;
+	font-family: angelo;
+	}
+
+.correo{
+	color:#00609C;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.celar {
+	color: #00609C;
+	text-align: center;
+	
+}
+
+
+.regis {
+	width: 500px;
+	padding: 20px;
+	background-color: #00609C;
+	margin: auto;
+	padding-top: 100px;
+	
+
+
+}
+
+
+/*SOMOS*/
+
+.cabecera-somos{
+    padding: 250px 0 100px 0;
+    background-image: url("../img/11.jpg");
+    background-position: center center;
+    background-size: cover;
+
+}
+.texto-blanco {
+    color: #fff;
+    font-size: 100px;
+    
+    
+    
+}
+
+.space {
+    padding: 50px 0;
+}
+
