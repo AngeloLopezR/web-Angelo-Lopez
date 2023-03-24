@@ -16,8 +16,12 @@
 
 footer {
     background-color: rgb(156, 156, 156);
-    padding: 100px 0;
+    padding: 10px 0;
     text-align: center;
+}
+
+.fo{
+    color: #f2f2f2;
 }
 
 footer .logotipo-footer {
@@ -204,7 +208,44 @@ font-size: 40px;
     
 }
 
-.space {
-    padding: 50px 0;
+.text1 {
+    background-color: #E74F3D;
+    color: yellow;
+    font-family: sans-serif;
+}
+.serv{
+    padding: 10px;
+    text-align: center;
 }
 
+.tex-ser {
+    color:yellow;
+    font-family:sans-serif;
+    font-size: 50px;
+    background-color:#00609C;
+    border-radius: 100px;
+    
+}
+
+.info-ser{
+    color: #00609C;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.space{
+    padding: 10px;
+}
+
+
+.asesores{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    
+    padding: 10px;
+}
+
+.ase{
+    color: black;
+}
